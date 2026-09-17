@@ -23,6 +23,7 @@ of the 9th National LiDAR Conference Point Cloud Intelligent Processing Competit
 - Exact Codabench contract: flat ZIP, same-stem `uint8` NPY files, labels 0–10.
 - CPU-only evaluation, dataset inspection, output validation, tests, and CI.
 - Auditable historical metrics with per-class results and clear reproducibility scope.
+- Downloadable recovered submission plus deterministic, dependency-free audit visualizations.
 
 ## Official competition result
 
@@ -45,6 +46,42 @@ submission owned by `thx0827`. The original 2025 source tree and checkpoint were
 repository is an engineering reconstruction, so the table documents a **verified historical
 submission**, not an out-of-the-box reproduction claim. See
 [result provenance](docs/competition_result.md).
+
+## Recovered official predictions
+
+The exact accepted prediction archive is now available at
+[`artifacts/submission_refined.zip`](artifacts/submission_refined.zip). It contains **8** Urban
+Railway test-scene vectors and **147,847,797** point predictions. Its SHA-256 is
+`65026f9ebdd6faaac82da0aac2f6dec2a3c927d55613cf86d7c36828929d378b`.
+
+![Per-scene composition of the recovered predictions](assets/official_submission_scene_composition.svg)
+
+![Overall label distribution of the recovered predictions](assets/official_submission_distribution.svg)
+
+Both figures above are computed directly from the recovered submission—not fabricated examples.
+They show predicted-label composition rather than spatial geometry because a prediction vector
+contains labels only. The separate official PLY file supplies XYZ coordinates. Test ground truth
+remains private, so these plots do not imply per-scene accuracy.
+
+Rebuild the manifest and figures in one command:
+
+```bash
+railway3d-visualize artifacts/submission_refined.zip
+```
+
+After obtaining the official test PLY files, generate a true spatial top/side view by pairing labels
+and coordinates in their original point order:
+
+```bash
+railway3d-visualize artifacts/submission_refined.zip \
+  --point-cloud-root data/WHU-Railway3D/Urban/test \
+  --scene L5-1-M01-002
+```
+
+See the [artifact audit note](artifacts/README.md) and machine-readable
+[`manifest.json`](results/submission_analysis/manifest.json) for exact file sizes, dtypes, class
+counts, and provenance. The archive is a submitted result, **not a checkpoint**; model weights
+cannot be recovered from predicted labels.
 
 ## Pipeline
 
@@ -152,7 +189,8 @@ src/railway3d_seg/
 ├── losses.py       # weighted CE + Lovasz-Softmax
 ├── metrics.py      # mIoU, class IoU, OA
 ├── engine.py       # AMP training and overlap-voted inference
-└── submission.py   # strict Codabench ZIP validation
+├── submission.py   # strict Codabench ZIP validation
+└── visualization.py # recovered-archive audit and optional spatial SVG rendering
 ```
 
 ## Reproducibility and responsible use
@@ -179,4 +217,3 @@ WHU-Railway3D is maintained by the WHU-USI3DV team. Cite the official paper:
 ```
 
 Code is released under the MIT License. The dataset remains subject to the provider's terms.
-

@@ -24,6 +24,7 @@ dev = ["pytest>=8.0", "ruff>=0.6"]
 railway3d-evaluate = "railway3d_seg.cli:evaluate_main"
 railway3d-submit = "railway3d_seg.cli:submission_main"
 railway3d-inspect = "railway3d_seg.cli:inspect_main"
+railway3d-visualize = "railway3d_seg.visualization:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
@@ -38,4 +39,3 @@ addopts = "-q"
 [tool.ruff]
 line-length = 100
 target-version = "py310"
-

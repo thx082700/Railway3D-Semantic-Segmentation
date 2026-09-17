@@ -25,8 +25,17 @@ reconstructs the full engineering path—data inspection, block sampling, sparse
 overlap-voted inference, validation metrics, output validation, and ZIP creation—using the same
 task contract.
 
-The prediction archive itself is not committed because it could not be recovered from the public
-endpoint and the test data remain governed by the dataset provider. If the owner later downloads
-the original archive from the authenticated Codabench Resources page, it should be attached as a
-GitHub Release asset with a checksum rather than silently presented as a newly generated output.
+The owner recovered the exact archive from the authenticated Codabench submission page on
+2026-09-17. It is preserved at
+[`artifacts/submission_refined.zip`](../artifacts/submission_refined.zip) with SHA-256
+`65026f9ebdd6faaac82da0aac2f6dec2a3c927d55613cf86d7c36828929d378b`.
 
+The archive contains 8 prediction vectors totaling 147,847,797 point labels. The historical file
+used `int8` arrays and included eight `__MACOSX` metadata entries; Codabench nevertheless accepted
+and scored it. The repository's current submission builder intentionally emits the stricter flat
+`uint8` format documented by the benchmark.
+
+The archive is sufficient to audit labels and create class-composition figures, but it is not a
+checkpoint and does not contain XYZ coordinates. True spatial visualizations require the matching
+official test PLY files, distributed separately under the provider's terms. Test-set ground truth
+is not public.

@@ -1,0 +1,220 @@
+{
+  "archive": "submission_refined.zip",
+  "sha256": "65026f9ebdd6faaac82da0aac2f6dec2a3c927d55613cf86d7c36828929d378b",
+  "archive_bytes": 2818500,
+  "prediction_files": 8,
+  "total_points": 147847797,
+  "ignored_zip_members": [
+    "__MACOSX/._L5-1-M01-002.npy",
+    "__MACOSX/._L7-1-M01-001.npy",
+    "__MACOSX/._L10-1-M01-003.npy",
+    "__MACOSX/._L12-1-M01-002.npy",
+    "__MACOSX/._L13-1-M01-001.npy",
+    "__MACOSX/._L16-1-M01-001.npy",
+    "__MACOSX/._L18-1-M01-001.npy",
+    "__MACOSX/._L19-1-M01-002.npy"
+  ],
+  "overall": {
+    "rails": {
+      "label": 0,
+      "points": 9353333,
+      "fraction": 0.06326325579271229
+    },
+    "track_bed": {
+      "label": 1,
+      "points": 18183676,
+      "fraction": 0.1229891575591079
+    },
+    "masts": {
+      "label": 2,
+      "points": 738167,
+      "fraction": 0.004992749401602515
+    },
+    "support_devices": {
+      "label": 3,
+      "points": 143924,
+      "fraction": 0.0009734605649890069
+    },
+    "overhead_lines": {
+      "label": 4,
+      "points": 971472,
+      "fraction": 0.006570757357987553
+    },
+    "fences": {
+      "label": 5,
+      "points": 7273674,
+      "fraction": 0.04919704011551826
+    },
+    "poles": {
+      "label": 6,
+      "points": 717336,
+      "fraction": 0.0048518545054817425
+    },
+    "vegetation": {
+      "label": 7,
+      "points": 37926895,
+      "fraction": 0.25652661567896073
+    },
+    "buildings": {
+      "label": 8,
+      "points": 4901930,
+      "fraction": 0.03315524545827355
+    },
+    "ground": {
+      "label": 9,
+      "points": 54912005,
+      "fraction": 0.3714090173423416
+    },
+    "others": {
+      "label": 10,
+      "points": 12725385,
+      "fraction": 0.08607084622302488
+    }
+  },
+  "scenes": [
+    {
+      "name": "L10-1-M01-003",
+      "points": 14271851,
+      "source_dtype": "int8",
+      "class_counts": {
+        "rails": 323958,
+        "track_bed": 1341074,
+        "masts": 50,
+        "support_devices": 0,
+        "overhead_lines": 34697,
+        "fences": 1444660,
+        "poles": 73714,
+        "vegetation": 5689222,
+        "buildings": 379134,
+        "ground": 4504970,
+        "others": 480372
+      }
+    },
+    {
+      "name": "L12-1-M01-002",
+      "points": 13059170,
+      "source_dtype": "int8",
+      "class_counts": {
+        "rails": 547373,
+        "track_bed": 1253152,
+        "masts": 0,
+        "support_devices": 10433,
+        "overhead_lines": 23592,
+        "fences": 595619,
+        "poles": 94337,
+        "vegetation": 2732382,
+        "buildings": 219649,
+        "ground": 4436201,
+        "others": 3146432
+      }
+    },
+    {
+      "name": "L13-1-M01-001",
+      "points": 15455494,
+      "source_dtype": "int8",
+      "class_counts": {
+        "rails": 544325,
+        "track_bed": 1391174,
+        "masts": 93510,
+        "support_devices": 29483,
+        "overhead_lines": 104692,
+        "fences": 1005862,
+        "poles": 11196,
+        "vegetation": 5929500,
+        "buildings": 395914,
+        "ground": 5449855,
+        "others": 499983
+      }
+    },
+    {
+      "name": "L16-1-M01-001",
+      "points": 11126568,
+      "source_dtype": "int8",
+      "class_counts": {
+        "rails": 1061272,
+        "track_bed": 1891822,
+        "masts": 97000,
+        "support_devices": 20190,
+        "overhead_lines": 77427,
+        "fences": 195355,
+        "poles": 4444,
+        "vegetation": 847954,
+        "buildings": 119666,
+        "ground": 6055316,
+        "others": 756122
+      }
+    },
+    {
+      "name": "L18-1-M01-001",
+      "points": 19660433,
+      "source_dtype": "int8",
+      "class_counts": {
+        "rails": 1520856,
+        "track_bed": 3162364,
+        "masts": 151594,
+        "support_devices": 49522,
+        "overhead_lines": 177487,
+        "fences": 857337,
+        "poles": 196640,
+        "vegetation": 2617083,
+        "buildings": 865890,
+        "ground": 9394200,
+        "others": 667460
+      }
+    },
+    {
+      "name": "L19-1-M01-002",
+      "points": 35524478,
+      "source_dtype": "int8",
+      "class_counts": {
+        "rails": 3633244,
+        "track_bed": 4742345,
+        "masts": 395846,
+        "support_devices": 24827,
+        "overhead_lines": 462297,
+        "fences": 971311,
+        "poles": 130094,
+        "vegetation": 6339836,
+        "buildings": 209397,
+        "ground": 12542867,
+        "others": 6072414
+      }
+    },
+    {
+      "name": "L5-1-M01-002",
+      "points": 18115167,
+      "source_dtype": "int8",
+      "class_counts": {
+        "rails": 1381862,
+        "track_bed": 3042846,
+        "masts": 167,
+        "support_devices": 3622,
+        "overhead_lines": 30717,
+        "fences": 491578,
+        "poles": 66685,
+        "vegetation": 2772956,
+        "buildings": 1674620,
+        "ground": 8051463,
+        "others": 598651
+      }
+    },
+    {
+      "name": "L7-1-M01-001",
+      "points": 20634636,
+      "source_dtype": "int8",
+      "class_counts": {
+        "rails": 340443,
+        "track_bed": 1358899,
+        "masts": 0,
+        "support_devices": 5847,
+        "overhead_lines": 60563,
+        "fences": 1711952,
+        "poles": 140226,
+        "vegetation": 10997962,
+        "buildings": 1037660,
+        "ground": 4477133,
+        "others": 503951
+      }
+    }
+  ]
+}

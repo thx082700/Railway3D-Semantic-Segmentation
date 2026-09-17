@@ -8,6 +8,37 @@
 
 > 重要说明：2025 年参赛时的原始代码和 checkpoint 已丢失。本仓库是完整的公开重建实现；上面的分数来自当年的官方 submission 记录，不宣称默认配置可直接复现同一分数。
 
+## 已恢复的真实提交结果
+
+原始 Codabench 预测包已经恢复并保存在
+[`artifacts/submission_refined.zip`](artifacts/submission_refined.zip)。该文件对应提交 ID
+`353373`，包含 8 个城市场景、共 **147,847,797** 个逐点预测，SHA-256 为
+`65026f9ebdd6faaac82da0aac2f6dec2a3c927d55613cf86d7c36828929d378b`。
+
+![真实提交的逐场景类别组成](assets/official_submission_scene_composition.svg)
+
+![真实提交的总体类别分布](assets/official_submission_distribution.svg)
+
+上面两张图直接由当年的真实预测标签计算得到，不是合成演示。由于提交包只包含标签、
+不包含 XYZ 坐标，所以当前展示的是类别组成，而不是空间点云。获得官方测试集 PLY 后，
+可以通过下面的一条命令生成真实的俯视图和侧视图：
+
+```bash
+railway3d-visualize artifacts/submission_refined.zip \
+  --point-cloud-root data/WHU-Railway3D/Urban/test \
+  --scene L5-1-M01-002
+```
+
+仅重新生成真实提交的统计清单和两张分析图：
+
+```bash
+railway3d-visualize artifacts/submission_refined.zip
+```
+
+这个 ZIP 是预测结果，不是 checkpoint，不能从中还原训练好的模型权重。完整审计信息见
+[`artifacts/README.md`](artifacts/README.md) 和
+[`results/submission_analysis/manifest.json`](results/submission_analysis/manifest.json)。
+
 ## 功能
 
 - MinkowskiEngine 四层残差 Sparse 3D U-Net；
@@ -16,6 +47,7 @@
 - 大场景随机块训练、重叠滑窗推理和概率投票；
 - 自动检查官方要求的同名、逐点、`uint8`、0–10 标签；
 - 一键生成根目录平铺的 Codabench ZIP；
+- 真实历史提交包的下载、校验、统计图和可选空间可视化；
 - CPU 可运行的评测、数据检查、单元测试和 CI。
 
 ## 快速开始

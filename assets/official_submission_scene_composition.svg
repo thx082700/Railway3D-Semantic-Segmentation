@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="700" viewBox="0 0 1220 700" role="img" aria-labelledby="title desc">
+<title id="title">Per-scene composition of official predictions</title>
+<desc id="desc">Normalized class composition for each recovered Urban Railway test prediction vector.</desc>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:28px;font-weight:700}.subtitle{font-size:15px;fill:#536176}.label{font-size:14px;}.small{font-size:12px;fill:#536176}.value{font-size:13px;font-weight:600}</style>
+<text x="54" y="58" class="title">Per-scene composition of official predictions</text>
+<text x="54" y="88" class="subtitle">Each bar is normalized to 100%; values come from the original accepted archive.</text>
+<text x="54" y="155" class="label">L10-1-M01-003</text>
+<rect x="230.00" y="130" width="20.88" height="38" fill="#e63946"/>
+<rect x="250.88" y="130" width="86.45" height="38" fill="#c89b3c"/>
+<rect x="337.33" y="130" width="0.00" height="38" fill="#7b2cbf"/>
+<rect x="337.34" y="130" width="2.24" height="38" fill="#00b4d8"/>
+<rect x="339.57" y="130" width="93.13" height="38" fill="#f77f00"/>
+<rect x="432.70" y="130" width="4.75" height="38" fill="#6c757d"/>
+<rect x="437.45" y="130" width="366.74" height="38" fill="#2a9d8f"/>
+<rect x="804.19" y="130" width="24.44" height="38" fill="#457b9d"/>
+<rect x="828.63" y="130" width="290.40" height="38" fill="#8d6e63"/>
+<rect x="1119.03" y="130" width="30.97" height="38" fill="#adb5bd"/>
+<text x="1164" y="155" class="small">14.3M</text>
+<text x="54" y="213" class="label">L12-1-M01-002</text>
+<rect x="230.00" y="188" width="38.56" height="38" fill="#e63946"/>
+<rect x="268.56" y="188" width="88.28" height="38" fill="#c89b3c"/>
+<rect x="356.84" y="188" width="0.73" height="38" fill="#ff70a6"/>
+<rect x="357.58" y="188" width="1.66" height="38" fill="#00b4d8"/>
+<rect x="359.24" y="188" width="41.96" height="38" fill="#f77f00"/>
+<rect x="401.20" y="188" width="6.65" height="38" fill="#6c757d"/>
+<rect x="407.85" y="188" width="192.49" height="38" fill="#2a9d8f"/>
+<rect x="600.34" y="188" width="15.47" height="38" fill="#457b9d"/>
+<rect x="615.81" y="188" width="312.52" height="38" fill="#8d6e63"/>
+<rect x="928.34" y="188" width="221.66" height="38" fill="#adb5bd"/>
+<text x="1164" y="213" class="small">13.1M</text>
+<text x="54" y="271" class="label">L13-1-M01-001</text>
+<rect x="230.00" y="246" width="32.40" height="38" fill="#e63946"/>
+<rect x="262.40" y="246" width="82.81" height="38" fill="#c89b3c"/>
+<rect x="345.21" y="246" width="5.57" height="38" fill="#7b2cbf"/>
+<rect x="350.78" y="246" width="1.75" height="38" fill="#ff70a6"/>
+<rect x="352.53" y="246" width="6.23" height="38" fill="#00b4d8"/>
+<rect x="358.77" y="246" width="59.87" height="38" fill="#f77f00"/>
+<rect x="418.64" y="246" width="0.67" height="38" fill="#6c757d"/>
+<rect x="419.31" y="246" width="352.96" height="38" fill="#2a9d8f"/>
+<rect x="772.26" y="246" width="23.57" height="38" fill="#457b9d"/>
+<rect x="795.83" y="246" width="324.41" height="38" fill="#8d6e63"/>
+<rect x="1120.24" y="246" width="29.76" height="38" fill="#adb5bd"/>
+<text x="1164" y="271" class="small">15.5M</text>
+<text x="54" y="329" class="label">L16-1-M01-001</text>
+<rect x="230.00" y="304" width="87.75" height="38" fill="#e63946"/>
+<rect x="317.75" y="304" width="156.43" height="38" fill="#c89b3c"/>
+<rect x="474.18" y="304" width="8.02" height="38" fill="#7b2cbf"/>
+<rect x="482.20" y="304" width="1.67" height="38" fill="#ff70a6"/>
+<rect x="483.87" y="304" width="6.40" height="38" fill="#00b4d8"/>
+<rect x="490.27" y="304" width="16.15" height="38" fill="#f77f00"/>
+<rect x="506.42" y="304" width="0.37" height="38" fill="#6c757d"/>
+<rect x="506.79" y="304" width="70.11" height="38" fill="#2a9d8f"/>
+<rect x="576.90" y="304" width="9.89" height="38" fill="#457b9d"/>
+<rect x="586.80" y="304" width="500.68" height="38" fill="#8d6e63"/>
+<rect x="1087.48" y="304" width="62.52" height="38" fill="#adb5bd"/>
+<text x="1164" y="329" class="small">11.1M</text>
+<text x="54" y="387" class="label">L18-1-M01-001</text>
+<rect x="230.00" y="362" width="71.17" height="38" fill="#e63946"/>
+<rect x="301.17" y="362" width="147.98" height="38" fill="#c89b3c"/>
+<rect x="449.15" y="362" width="7.09" height="38" fill="#7b2cbf"/>
+<rect x="456.24" y="362" width="2.32" height="38" fill="#ff70a6"/>
+<rect x="458.56" y="362" width="8.31" height="38" fill="#00b4d8"/>
+<rect x="466.87" y="362" width="40.12" height="38" fill="#f77f00"/>
+<rect x="506.98" y="362" width="9.20" height="38" fill="#6c757d"/>
+<rect x="516.19" y="362" width="122.47" height="38" fill="#2a9d8f"/>
+<rect x="638.65" y="362" width="40.52" height="38" fill="#457b9d"/>
+<rect x="679.17" y="362" width="439.60" height="38" fill="#8d6e63"/>
+<rect x="1118.77" y="362" width="31.23" height="38" fill="#adb5bd"/>
+<text x="1164" y="387" class="small">19.7M</text>
+<text x="54" y="445" class="label">L19-1-M01-002</text>
+<rect x="230.00" y="420" width="94.09" height="38" fill="#e63946"/>
+<rect x="324.09" y="420" width="122.82" height="38" fill="#c89b3c"/>
+<rect x="446.91" y="420" width="10.25" height="38" fill="#7b2cbf"/>
+<rect x="457.16" y="420" width="0.64" height="38" fill="#ff70a6"/>
+<rect x="457.80" y="420" width="11.97" height="38" fill="#00b4d8"/>
+<rect x="469.77" y="420" width="25.15" height="38" fill="#f77f00"/>
+<rect x="494.93" y="420" width="3.37" height="38" fill="#6c757d"/>
+<rect x="498.30" y="420" width="164.19" height="38" fill="#2a9d8f"/>
+<rect x="662.49" y="420" width="5.42" height="38" fill="#457b9d"/>
+<rect x="667.91" y="420" width="324.83" height="38" fill="#8d6e63"/>
+<rect x="992.74" y="420" width="157.26" height="38" fill="#adb5bd"/>
+<text x="1164" y="445" class="small">35.5M</text>
+<text x="54" y="503" class="label">L5-1-M01-002</text>
+<rect x="230.00" y="478" width="70.18" height="38" fill="#e63946"/>
+<rect x="300.18" y="478" width="154.53" height="38" fill="#c89b3c"/>
+<rect x="454.71" y="478" width="0.01" height="38" fill="#7b2cbf"/>
+<rect x="454.72" y="478" width="0.18" height="38" fill="#ff70a6"/>
+<rect x="454.91" y="478" width="1.56" height="38" fill="#00b4d8"/>
+<rect x="456.47" y="478" width="24.97" height="38" fill="#f77f00"/>
+<rect x="481.43" y="478" width="3.39" height="38" fill="#6c757d"/>
+<rect x="484.82" y="478" width="140.83" height="38" fill="#2a9d8f"/>
+<rect x="625.65" y="478" width="85.05" height="38" fill="#457b9d"/>
+<rect x="710.69" y="478" width="408.90" height="38" fill="#8d6e63"/>
+<rect x="1119.60" y="478" width="30.40" height="38" fill="#adb5bd"/>
+<text x="1164" y="503" class="small">18.1M</text>
+<text x="54" y="561" class="label">L7-1-M01-001</text>
+<rect x="230.00" y="536" width="15.18" height="38" fill="#e63946"/>
+<rect x="245.18" y="536" width="60.59" height="38" fill="#c89b3c"/>
+<rect x="305.77" y="536" width="0.26" height="38" fill="#ff70a6"/>
+<rect x="306.03" y="536" width="2.70" height="38" fill="#00b4d8"/>
+<rect x="308.73" y="536" width="76.33" height="38" fill="#f77f00"/>
+<rect x="385.05" y="536" width="6.25" height="38" fill="#6c757d"/>
+<rect x="391.31" y="536" width="490.35" height="38" fill="#2a9d8f"/>
+<rect x="881.65" y="536" width="46.26" height="38" fill="#457b9d"/>
+<rect x="927.92" y="536" width="199.61" height="38" fill="#8d6e63"/>
+<rect x="1127.53" y="536" width="22.47" height="38" fill="#adb5bd"/>
+<text x="1164" y="561" class="small">20.6M</text>
+<rect x="54" y="606" width="14" height="14" rx="2" fill="#e63946"/>
+<text x="76" y="618" class="small">Rails</text>
+<rect x="244" y="606" width="14" height="14" rx="2" fill="#c89b3c"/>
+<text x="266" y="618" class="small">Track Bed</text>
+<rect x="434" y="606" width="14" height="14" rx="2" fill="#7b2cbf"/>
+<text x="456" y="618" class="small">Masts</text>
+<rect x="624" y="606" width="14" height="14" rx="2" fill="#ff70a6"/>
+<text x="646" y="618" class="small">Support Devices</text>
+<rect x="814" y="606" width="14" height="14" rx="2" fill="#00b4d8"/>
+<text x="836" y="618" class="small">Overhead Lines</text>
+<rect x="1004" y="606" width="14" height="14" rx="2" fill="#f77f00"/>
+<text x="1026" y="618" class="small">Fences</text>
+<rect x="54" y="634" width="14" height="14" rx="2" fill="#6c757d"/>
+<text x="76" y="646" class="small">Poles</text>
+<rect x="244" y="634" width="14" height="14" rx="2" fill="#2a9d8f"/>
+<text x="266" y="646" class="small">Vegetation</text>
+<rect x="434" y="634" width="14" height="14" rx="2" fill="#457b9d"/>
+<text x="456" y="646" class="small">Buildings</text>
+<rect x="624" y="634" width="14" height="14" rx="2" fill="#8d6e63"/>
+<text x="646" y="646" class="small">Ground</text>
+<rect x="814" y="634" width="14" height="14" rx="2" fill="#adb5bd"/>
+<text x="836" y="646" class="small">Others</text>
+</svg>

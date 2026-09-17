@@ -16,4 +16,4 @@ runs/
 *.pt
 *.ckpt
 submission*.zip
-
+!artifacts/submission_refined.zip
