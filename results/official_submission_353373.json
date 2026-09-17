@@ -1,0 +1,28 @@
+{
+  "benchmark": "Urban Railway PCSS",
+  "competition_url": "https://www.codabench.org/competitions/5138/",
+  "submission_api_url": "https://www.codabench.org/api/submissions/353373/",
+  "submission_id": 353373,
+  "owner": "thx0827",
+  "filename": "submission_refined.zip",
+  "submitted_at_utc": "2025-08-14T13:05:35.387379Z",
+  "status": "Finished",
+  "on_leaderboard": true,
+  "mean_iou_percent": 79.2856955103,
+  "overall_accuracy_percent": 93.1405511575,
+  "per_class_iou_percent": {
+    "rails": 71.463308693,
+    "track_bed": 89.9501577208,
+    "masts": 87.4169698999,
+    "support_devices": 52.0580366331,
+    "overhead_lines": 92.642577742,
+    "fences": 63.0827920312,
+    "poles": 64.8617209516,
+    "vegetation": 88.0971426015,
+    "buildings": 77.2724741681,
+    "ground": 91.0975743739,
+    "others": 94.1998957981
+  },
+  "provenance_note": "Values are the exact score fields returned by the public Codabench submission endpoint on 2026-09-17."
+}
+

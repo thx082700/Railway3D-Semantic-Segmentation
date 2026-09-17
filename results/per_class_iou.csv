@@ -1,0 +1,13 @@
+class,label,iou_percent
+rails,0,71.4633086930
+track_bed,1,89.9501577208
+masts,2,87.4169698999
+support_devices,3,52.0580366331
+overhead_lines,4,92.6425777420
+fences,5,63.0827920312
+poles,6,64.8617209516
+vegetation,7,88.0971426015
+buildings,8,77.2724741681
+ground,9,91.0975743739
+others,10,94.1998957981
+

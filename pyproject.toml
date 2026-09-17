@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "railway3d-semantic-segmentation"
+version = "1.0.0"
+description = "Sparse 3D semantic segmentation and Codabench submission tools for WHU-Railway3D"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Haoxi Tian"}]
+dependencies = [
+  "numpy>=1.24",
+  "plyfile>=1.0.3",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+train = ["torch>=2.1", "tqdm>=4.66"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+railway3d-evaluate = "railway3d_seg.cli:evaluate_main"
+railway3d-submit = "railway3d_seg.cli:submission_main"
+railway3d-inspect = "railway3d_seg.cli:inspect_main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+

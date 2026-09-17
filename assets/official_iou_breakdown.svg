@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="540" viewBox="0 0 920 540" role="img" aria-labelledby="title desc">
+  <title id="title">Official Codabench per-class IoU</title>
+  <desc id="desc">Horizontal bar chart for submission 353373 on Urban Railway PCSS.</desc>
+  <rect width="920" height="540" fill="#0b1020" rx="18"/>
+  <text x="38" y="44" fill="#f8fafc" font-family="Arial,sans-serif" font-size="25" font-weight="700">Urban Railway PCSS · Official submission 353373</text>
+  <text x="38" y="73" fill="#94a3b8" font-family="Arial,sans-serif" font-size="15">mIoU 79.29% · Overall Accuracy 93.14%</text>
+  <g font-family="Arial,sans-serif" font-size="14">
+    <g fill="#cbd5e1" text-anchor="end">
+      <text x="178" y="117">Rails</text><text x="178" y="153">Track bed</text><text x="178" y="189">Masts</text>
+      <text x="178" y="225">Support devices</text><text x="178" y="261">Overhead lines</text><text x="178" y="297">Fences</text>
+      <text x="178" y="333">Poles</text><text x="178" y="369">Vegetation</text><text x="178" y="405">Buildings</text>
+      <text x="178" y="441">Ground</text><text x="178" y="477">Others</text>
+    </g>
+    <g fill="#172036">
+      <rect x="198" y="99" width="650" height="23" rx="5"/><rect x="198" y="135" width="650" height="23" rx="5"/>
+      <rect x="198" y="171" width="650" height="23" rx="5"/><rect x="198" y="207" width="650" height="23" rx="5"/>
+      <rect x="198" y="243" width="650" height="23" rx="5"/><rect x="198" y="279" width="650" height="23" rx="5"/>
+      <rect x="198" y="315" width="650" height="23" rx="5"/><rect x="198" y="351" width="650" height="23" rx="5"/>
+      <rect x="198" y="387" width="650" height="23" rx="5"/><rect x="198" y="423" width="650" height="23" rx="5"/>
+      <rect x="198" y="459" width="650" height="23" rx="5"/>
+    </g>
+    <g fill="#22c55e">
+      <rect x="198" y="99" width="464.5" height="23" rx="5"/><rect x="198" y="135" width="584.7" height="23" rx="5"/>
+      <rect x="198" y="171" width="568.2" height="23" rx="5"/><rect x="198" y="207" width="338.4" height="23" rx="5" fill="#f59e0b"/>
+      <rect x="198" y="243" width="602.2" height="23" rx="5"/><rect x="198" y="279" width="410.0" height="23" rx="5" fill="#38bdf8"/>
+      <rect x="198" y="315" width="421.6" height="23" rx="5" fill="#38bdf8"/><rect x="198" y="351" width="572.6" height="23" rx="5"/>
+      <rect x="198" y="387" width="502.3" height="23" rx="5"/><rect x="198" y="423" width="592.1" height="23" rx="5"/>
+      <rect x="198" y="459" width="612.3" height="23" rx="5"/>
+    </g>
+    <g fill="#f8fafc" font-weight="700">
+      <text x="672" y="117">71.46</text><text x="792" y="153">89.95</text><text x="776" y="189">87.42</text>
+      <text x="546" y="225">52.06</text><text x="810" y="261">92.64</text><text x="618" y="297">63.08</text>
+      <text x="630" y="333">64.86</text><text x="781" y="369">88.10</text><text x="710" y="405">77.27</text>
+      <text x="800" y="441">91.10</text><text x="820" y="477">94.20</text>
+    </g>
+  </g>
+  <text x="38" y="518" fill="#64748b" font-family="Arial,sans-serif" font-size="13">Source: Codabench API · values in percent</text>
+</svg>
+

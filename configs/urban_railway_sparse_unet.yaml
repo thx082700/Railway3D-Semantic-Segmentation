@@ -1,0 +1,43 @@
+seed: 2025
+
+data:
+  root: data/WHU-Railway3D/Urban
+  train_manifest: data/splits/urban_train.txt
+  validation_manifest: data/splits/urban_validation.txt
+  test_manifest: data/splits/urban_test.txt
+  label_property: null
+  feature_properties: [intensity]
+  voxel_size: 0.08
+  block_size: 50.0
+  max_training_points: 350000
+  train_blocks_per_file: 16
+  validation_blocks_per_file: 4
+  cache_size: 2
+  num_workers: 0
+
+model:
+  in_channels: 4
+  base_channels: 32
+  pretrained_backbone: null
+
+loss:
+  # Re-estimate weights on your official train split before a final run.
+  # The rare railway-infrastructure classes are intentionally emphasized.
+  class_weights: [2.0, 1.0, 2.0, 3.0, 2.5, 1.5, 1.8, 0.6, 0.8, 0.5, 0.4]
+  lovasz_weight: 1.0
+
+train:
+  device: cuda
+  epochs: 120
+  batch_size: 2
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip: 10.0
+  amp: true
+  checkpoint_dir: checkpoints/urban_sparse_unet
+
+inference:
+  overlap: 0.5
+  max_points_per_pass: 800000
+  tta_x_flip: true
+

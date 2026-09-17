@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this implementation, cite the repository and the WHU-Railway3D paper."
+title: "Railway3D Semantic Segmentation"
+type: software
+authors:
+  - family-names: Tian
+    given-names: Haoxi
+repository-code: "https://github.com/thx082700/Railway3D-Semantic-Segmentation"
+version: 1.0.0
+date-released: 2026-09-17
+preferred-citation:
+  type: article
+  title: "WHU-Railway3D: A Diverse Dataset and Benchmark for Railway Point Cloud Semantic Segmentation"
+  authors:
+    - family-names: Qiu
+      given-names: Bo
+    - family-names: Zhou
+      given-names: Yuzhou
+    - family-names: Dai
+      given-names: Lei
+    - family-names: Yang
+      given-names: Bisheng
+  journal: IEEE Transactions on Intelligent Transportation Systems
+  year: 2024
+  doi: 10.1109/TITS.2024.3469546
+
