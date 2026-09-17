@@ -43,5 +43,4 @@ railway3d-submit outputs/urban_test_predictions outputs/submission.zip \
   --test-root data/WHU-Railway3D/Urban/test
 ```
 
-数据集请只从官方仓库申请，本项目不重新分发点云、标注或测试集标签。详细的标签、文件结构和提交格式见 [数据说明](docs/dataset.md)，历史成绩来源和复现边界见 [成绩说明](docs/competition_result.md)，可用于英文 CV 的准确表述见 [CV wording](docs/cv.md)。
-
+数据集请只从官方仓库申请，本项目不重新分发点云、标注或测试集标签。详细的标签、文件结构和提交格式见 [数据说明](docs/dataset.md)，历史成绩来源和复现边界见 [成绩说明](docs/competition_result.md)。
